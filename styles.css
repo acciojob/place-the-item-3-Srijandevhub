@@ -6,6 +6,7 @@
 .holder {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 .item {
 	flex: 0 0 auto;
