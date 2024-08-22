@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+* {
+	box-sizing: border-box;
+}
+.holder {
+	display: flex;
+	flex-wrap: wrap;
+}
+.item {
+	flex: 0 0 auto;
+	max-width: 100%;
+	width: 33.3333%;
+}
